@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perburuan Rempah Haji Bas</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: sans-serif;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 { margin-bottom: 0.5rem; }
+    p { margin-top: 0; color: #555; }
+  </style>
+</head>
+<body>
+  <h1>Perburuan Rempah Haji Bas</h1>
+  <p>Siap berburu jahe, pala, dan rempah lainnya? Tunggu sebentar...</p>
+  <script>
+    const links = [
+      'https://wordsearch1.example.com',
+      'https://wordsearch2.example.com',
+      'https://wordsearch3.example.com',
+      'https://wordsearch4.example.com',
+      'https://wordsearch5.example.com',
+      'https://wordsearch6.example.com',
+      'https://wordsearch7.example.com',
+      'https://wordsearch8.example.com',
+      'https://wordsearch9.example.com',
+      'https://wordsearch10.example.com'
+    ];
+    const target = links[Math.floor(Math.random() * links.length)];
+    window.location.replace(target);
+  </script>
+</body>
+</html>
